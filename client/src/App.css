@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Charmonman&display=swap');
+.App{
+  font-family: sans-serif;
+  display: flex;
+  padding: 15px;
+}
+.App .Meta{
+  flex-grow: 1;
+}
+.App #certificateWrapper{
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+}
+.App #certificateWrapper img{
+  display: block;
+  height: 80%;
+}
+.App #certificateWrapper p{
+  position: absolute;
+  margin: 0;
+  left: 280px;
+  font-size: x-large;
+  top: 260px;
+  font-family: 'Charmonman', cursive;
+  font-weight: 900;
+}
